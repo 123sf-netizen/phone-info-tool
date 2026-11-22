@@ -1,0 +1,72 @@
+name: chaxun
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: phoneguide
+      MYSQL_USER: phoneguide
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?请在 .env 中设置 MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?请在 .env 中设置 MYSQL_ROOT_PASSWORD}
+    volumes:
+      - phone_mysql:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysql -h 127.0.0.1 -u$$MYSQL_USER -p$$MYSQL_PASSWORD --database=$$MYSQL_DATABASE -e \"SELECT 1\" >/dev/null 2>&1"]
+      interval: 10s
+      timeout: 5s
+      retries: 18
+    restart: unless-stopped
+  backend:
+    build:
+      context: ./backend
+      args:
+        PIP_INDEX_URL: ${PIP_INDEX_URL:-https://pypi.tuna.tsinghua.edu.cn/simple}
+    environment:
+      DATABASE_URL: mysql+pymysql://phoneguide:${MYSQL_PASSWORD}@mysql:3306/phoneguide?charset=utf8mb4
+      ADMIN_TOKEN: ${ADMIN_TOKEN:?请运行启动项目脚本生成管理口令}
+      ONLINE_VISION_ENABLED: ${ONLINE_VISION_ENABLED:-0}
+      GOOGLE_VISION_API_KEY: ${GOOGLE_VISION_API_KEY:-}
+    volumes:
+      - ../index.html:/seed/index.html:ro
+      - ../旧版查询工具.html:/seed/legacy.html:ro
+      - ./back-references.json:/seed/back-references.json:ro
+      - ../images:/images:ro
+      - ./storage/reports:/reports:ro
+    depends_on:
+      mysql:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health', timeout=3)"]
+      interval: 5s
+      timeout: 5s
+      retries: 18
+    restart: unless-stopped
+  frontend:
+    image: nginx:alpine
+    ports:
+      - "61434:80"
+      - "127.0.0.1:61435:81"
+    volumes:
+      - ../:/usr/share/nginx/html:ro
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+    restart: unless-stopped
+  scheduler:
+    build:
+      context: ./backend
+      args:
+        PIP_INDEX_URL: ${PIP_INDEX_URL:-https://pypi.tuna.tsinghua.edu.cn/simple}
+    command: ["python", "scheduler.py"]
+    environment:
+      AUTO_OFFICIAL_CHECK: ${AUTO_OFFICIAL_CHECK:-1}
+      DATABASE_URL: mysql+pymysql://phoneguide:${MYSQL_PASSWORD}@mysql:3306/phoneguide?charset=utf8mb4
+    volumes:
+      - ./storage/reports:/reports
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  phone_mysql:
+    external: true
+    name: local-app_phone_mysql

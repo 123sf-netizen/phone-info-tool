@@ -1,0 +1,23 @@
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+
+# Database exports, reports, and runtime data
+local-app/storage/
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Temporary image review artifacts
+image-review/
+nova8-check.png
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "references": [
+    {
+      "phoneId": 10,
+      "phoneName": "HUAWEI Pura X Max",
+      "image": "images/huawei-pura-x-max-official-white.png",
+      "sha256": "6d0f9e2abe283fea7b8e44bff59ef61b777e03da85b3dddc7e5354f3b6cc3c56",
+      "region": "中国大陆",
+      "color": "零度白",
+      "source": "https://consumer.huawei.com/cn/phones/pura-x-max/specs/",
+      "sourceStatus": "厂商官方核实",
+      "checkedAt": "2026-11-20",
+      "description": "折叠态背面，官方规格页图片；本地文件已目视检查"
+    }
+  ]
+}

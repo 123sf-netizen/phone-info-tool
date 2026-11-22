@@ -1,0 +1,1166 @@
+{
+  "date": "2026-11-10",
+  "scope": "现有机型主图；根据可访问的图片搜索结果和来源页文字核查，尚未在本地浏览器完成加载测试",
+  "checked": [
+    {
+      "id": 18,
+      "name": "HUAWEI Mate 70 Pro+",
+      "source": "https://www.4gltemall.com/huawei-mate-70-pro-3572.html",
+      "note": "搜索结果描述为该型号正反面整机图"
+    },
+    {
+      "id": 19,
+      "name": "HUAWEI Mate 70 Pro",
+      "source": "https://consumer.huawei.com/cn/phones/",
+      "note": "华为官网图片搜索结果描述为该型号整机正反面"
+    },
+    {
+      "id": 20,
+      "name": "HUAWEI Mate 70",
+      "source": "https://fe.suning.com/bigimages/12438887124.html",
+      "note": "搜索结果描述为该型号正反面整机图"
+    },
+    {
+      "id": 15,
+      "name": "HUAWEI Mate 70 Air",
+      "source": "https://bludiode.com/en/phones-and-smartphones/huawei-mate-70-air-12gb256gb-silver-30012/",
+      "note": "搜索结果描述为该型号完整产品图；浏览器加载待验证"
+    },
+    {
+      "id": 28,
+      "name": "HUAWEI Mate 60 Pro",
+      "source": "https://consumer.huawei.com/cn/phones/",
+      "note": "搜索结果描述为该型号完整产品图；浏览器加载待验证"
+    },
+    {
+      "id": 32,
+      "name": "vivo X500 Pro",
+      "source": "https://www.vivo.com.cn/vivo/param/x500pro",
+      "note": "搜索结果描述为该型号完整产品图；浏览器加载待验证"
+    },
+    {
+      "id": 3,
+      "name": "OPPO Find X8",
+      "source": "https://www.oppo.com/cn/smartphones/",
+      "note": "官方图片搜索结果描述为白色机型正反面；浏览器加载待验证"
+    },
+    {
+      "id": 4,
+      "name": "一加 13",
+      "source": "https://androidworld.nl/oneplus/oneplus-13/",
+      "note": "现有图片搜索结果描述为白色机型正反面；地区及浏览器加载待验证"
+    },
+    {
+      "id": 25,
+      "name": "HUAWEI Mate X5",
+      "source": "https://gadgets.beebom.com/mobile/huawei-mate-x5",
+      "note": "现有链接匹配该型号产品页，图片搜索结果描述为紫色机型；整机画面和浏览器加载待人工验证"
+    },
+    {
+      "id": 43,
+      "name": "vivo S30 Pro mini",
+      "source": "https://www.vivo.com.cn/vivo/param/s30promini",
+      "note": "更换为官方参数页产品图，搜索结果描述为该型号，整机画面与浏览器加载待验证"
+    },
+    {
+      "id": 44,
+      "name": "vivo S30",
+      "source": "https://www.vivo.com.cn/vivo/param/s30",
+      "note": "更换为官方参数页产品图，搜索结果描述为该型号，整机画面与浏览器加载待验证"
+    },
+    {
+      "id": 41,
+      "name": "vivo S50 Pro mini",
+      "source": "https://pdaplaza.com/products/vivo-s50-pro-mini-12gb-256gb-confession-white-cn-version",
+      "note": "来源页与搜索结果对应型号；整机画面与浏览器加载待验证"
+    },
+    {
+      "id": 53,
+      "name": "vivo Y500 Pro",
+      "source": "https://www.vivo.com.cn/vivo/param/y500pro",
+      "note": "来源页与搜索结果对应型号；整机画面与浏览器加载待验证"
+    },
+    {
+      "id": 68,
+      "name": "OPPO Find N3",
+      "source": "https://www.oppo.com/vn/product/oppo-find-n3.P.P1100461",
+      "note": "OPPO 越南官网产品图，搜索描述为金色展开状态；与中国版本外观一致性及实际加载仍待核实"
+    },
+    {
+      "id": 26,
+      "name": "HUAWEI Mate 60 Pro+",
+      "source": "https://consumer.huawei.com/cn/phones/",
+      "note": "来源和图片搜索结果对应型号；地区版本、整机画面及浏览器加载仍待验证"
+    },
+    {
+      "id": 30,
+      "name": "HUAWEI Mate 50E",
+      "source": "https://gadgets.beebom.com/mobile/huawei-mate-50e",
+      "note": "来源和图片搜索结果对应型号；地区版本、整机画面及浏览器加载仍待验证"
+    },
+    {
+      "id": 29,
+      "name": "HUAWEI Mate X3",
+      "source": "https://inf.news/en/digital/7df341ce720d052d4e8c9b7f75140925.html",
+      "note": "来源和图片搜索结果对应型号；地区版本、整机画面及浏览器加载仍待验证"
+    },
+    {
+      "id": 72,
+      "name": "OPPO Find N",
+      "source": "https://www.oppojia.com/product/31.html",
+      "note": "来源和图片搜索结果对应型号；地区版本、整机画面及浏览器加载仍待验证"
+    },
+    {
+      "id": 45,
+      "name": "vivo S20 Pro",
+      "source": "https://bludiode.com/pt/vivo/vivo-s20-pro-12gb-512gb-dourado-27664/",
+      "note": "来源和图片搜索结果对应型号；地区版本、整机画面及浏览器加载仍待验证"
+    },
+    {
+      "id": 36,
+      "name": "vivo X300 Ultra",
+      "source": "https://www.mameko-lite.com/product-page/x300-ultra",
+      "note": "图片搜索结果描述为对应型号整机；部分地区版本及实际加载待验证"
+    },
+    {
+      "id": 38,
+      "name": "vivo X300 Pro",
+      "source": "https://www.mygsm.me/vivo-x300-pro-512gb-price-dubai-uae-saudi-arabia.html",
+      "note": "图片搜索结果描述为对应型号整机；部分地区版本及实际加载待验证"
+    },
+    {
+      "id": 67,
+      "name": "OPPO Find N5",
+      "source": "https://tradingshenzhen.com/en/oppo-find-n5/oppo-find-n5-12gb256gb-foldable",
+      "note": "图片搜索结果描述为对应型号整机；部分地区版本及实际加载待验证"
+    },
+    {
+      "id": 71,
+      "name": "OPPO Find N2 Flip",
+      "source": "https://item.rakuten.co.jp/auc-nokiagsm/oppofindn2flip_chn/",
+      "note": "图片搜索结果描述为对应型号整机；部分地区版本及实际加载待验证"
+    },
+    {
+      "id": 232,
+      "name": "HUAWEI Mate 40 Pro 4G",
+      "source": "https://zh.kalvo.com/huawei-mate-40-pro-4g-126.html",
+      "note": "图片搜索结果描述为对应型号整机；部分地区版本及实际加载待验证"
+    },
+    {
+      "id": 236,
+      "name": "HUAWEI Mate 30 5G",
+      "source": "https://www.vmall.com/product/10086761814096.html",
+      "note": "图片搜索结果描述为对应型号整机；部分地区版本及实际加载待验证"
+    },
+    {
+      "id": 233,
+      "name": "HUAWEI Mate 40 Pro+",
+      "source": "https://spec.pk/huawei-mate-40-pro-plus",
+      "image": "https://spec.pk/uploads/2023/02/Huawei-Mate-40-Pro-Plus.jpg",
+      "note": "搜索结果和来源文字初步对应型号；图片完整性、地区版本和实际加载仍需人工验证"
+    },
+    {
+      "id": 230,
+      "name": "HUAWEI Mate 40E Pro",
+      "source": "https://www.ixbt.com/news/2022/02/28/huawei-mate-40e-pro-5g-c-kirin-9000l-90-oled-50-harmonyos-2-0.html",
+      "image": "https://www.ixbt.com/img/n1/news/2022/1/1/huawei-mate40e-pro_large.jpeg",
+      "note": "搜索结果和来源文字初步对应型号；图片完整性、地区版本和实际加载仍需人工验证"
+    },
+    {
+      "id": 251,
+      "name": "HUAWEI nova 11 Ultra",
+      "source": "https://jp.etoren.com/products/huawei-nova-11-ultra-goa-al80u-dual-sim-512gb-kunlun-glass-green-8gb-ram-china-version",
+      "image": "https://cdn.etoren.com/upload/images/0.48863400_1718109526_huawei-nova-11-ultra-goa-al80u-dual-sim-512gb-kunlun-glass-green-8gb-ram-china-version.jpg",
+      "note": "搜索结果和来源文字初步对应型号；图片完整性、地区版本和实际加载仍需人工验证"
+    },
+    {
+      "id": 255,
+      "name": "HUAWEI nova 9 Pro",
+      "source": "https://www.gadgets360.com/mobiles/news/huawei-nova-9-pro-price-cny-2699-3499-launch-sale-date-september-29-specifications-features-2551901",
+      "image": "https://i.gadgets360cdn.com/large/huawei_nova_9_pro_front_back_image_1632464259650.jpg",
+      "note": "搜索结果和来源文字初步对应型号；图片完整性、地区版本和实际加载仍需人工验证"
+    },
+    {
+      "id": 70,
+      "name": "OPPO Find N2",
+      "source": "https://www.giztop.com/oppo-find-n2.html",
+      "image": "https://www.giztop.com/media/catalog/product/cache/97cc1143d2e20f2b0c8ea91aaa12053c/o/p/oppo_find_n2.png",
+      "note": "搜索结果和来源文字初步对应型号；图片完整性、地区版本和实际加载仍需人工验证"
+    },
+    {
+      "id": 270,
+      "name": "Xiaomi 12S",
+      "source": "https://www.sunsky-online.com/p/MPH9200B.htm",
+      "image": "https://img.myipadbox.com/upload/store/product_l/MPH9200B.jpg",
+      "note": "搜索结果和来源文字初步对应型号；图片完整性、地区版本和实际加载仍需人工验证"
+    }
+  ],
+  "missing": [],
+  "duplicateImageAudit": {
+    "date": "2026-11-10",
+    "method": "按主图链接完全相同筛查；未视觉核对，链接不同不代表画面不同",
+    "pairs": [
+      {
+        "models": [
+          "iQOO Neo7 竞速版",
+          "iQOO Neo7"
+        ],
+        "finding": "两机型共用链接；公开评测称外观高度一致但部分颜色存在差异，仍须逐版核对原图，不能仅因相似断定正确。",
+        "sources": [
+          "https://www.igao7.com/news/202301/BYmCmc0PxVdlO9z6.html",
+          "https://www.vivo.com.cn/vivo/param/iqooneo7js"
+        ]
+      },
+      {
+        "models": [
+          "vivo S50t",
+          "vivo S50t 元气版"
+        ],
+        "finding": "两机型共用链接；公开报道指其余规格无变化，仍须验证共用图片的配色与完整性。",
+        "sources": [
+          "https://www.ithome.com/0/989/459.htm"
+        ]
+      },
+      {
+        "models": [
+          "HUAWEI Pocket 2",
+          "HUAWEI Pocket 2 优享版"
+        ],
+        "finding": "两机型共用链接；华为将两者列入同一外观图页面，仍须核对共用图片的配色及产品图完整性。",
+        "sources": [
+          "https://consumer.huawei.com/cn/support/content/zh-cn15991407/"
+        ]
+      }
+    ],
+    "limitations": "未成功打开本地页面或加载原始图片，未更换主图，尚不能判定这些图片是否正确。"
+  },
+  "suspectImageAudit": {
+    "date": "2026-11-10",
+    "method": "对 294 条已配置主图链接按 case、cover、poster、launch、promo、wallpaper、event、diagram、banner 等关键词筛查；命中仅代表可能存在问题",
+    "findings": [
+      {
+        "id": 19,
+        "name": "HUAWEI Mate 70 Pro",
+        "reason": "链接路径包含 launch；属于官网文件路径，不能仅凭此判断为发布会图片。",
+        "status": "需视觉核验"
+      },
+      {
+        "id": 213,
+        "name": "HUAWEI P50E",
+        "reason": "链接文件名包含 launch，可能为发布宣传图，需确认画面是否为无宣传文字的完整手机。",
+        "source": "https://consumer.huawei.com/cn/support/phones/p50e/",
+        "status": "需视觉核验"
+      },
+      {
+        "id": 215,
+        "name": "HUAWEI P40",
+        "reason": "官网链接路径包含 promo；当前规格注明瑞典 5G 版本，需确认图片配色及型号。",
+        "status": "需视觉核验"
+      },
+      {
+        "id": 256,
+        "name": "HUAWEI nova 8",
+        "reason": "海外活动横幅图片路径包含 event、kv、Horizontal；很可能不符合纯净产品图要求，但尚未看到原图。项目规格标记为卡塔尔 4G 版，搜索找到的中国 5G 版候选不应直接混用。",
+        "source": "https://www.ithome.com/0/567/498.htm",
+        "status": "优先核验并寻找卡塔尔 4G 版完整产品图",
+        "candidates": [
+          {
+            "source": "https://alaneesqatar.qa/product/huawei-nova-8-price-in-qatar-and-doha/",
+            "image": "https://static.alaneesqatar.qa/2021/08/nova-8-gold-1.png",
+            "note": "卡塔尔零售商页面；搜索结果描述为正反面整机，实际画面、型号和加载尚待核验。"
+          }
+        ]
+      }
+    ],
+    "limitation": "关键词筛查不能覆盖无提示的宣传图或错图；当前环境无法打开页面或图片，未替换主图。"
+  },
+  "additionalCandidates": [
+    {
+      "id": 197,
+      "name": "HUAWEI Pocket 2 艺术定制版",
+      "source": "https://www.etoren.com/products/huawei-pocket-2-art-custom-edition-lem-al00-dual-sim-1tb-blue-16gb-ram-china-version",
+      "image": "https://cdn.etoren.com/upload/images/0.50356700_1718095644_huawei-pocket-2-art-custom-edition-lem-al00-dual-sim-1tb-blue-16gb-ram-china-version.jpg",
+      "note": "搜索结果描述为折叠及展开整机，中国版；实际画面与加载待验证。"
+    },
+    {
+      "id": 15,
+      "name": "HUAWEI Mate 70 Air",
+      "source": "https://www.bigw.com.au/product/huawei-mate-70-air-5g-silver-12gb-512gb-brand-new-chinese-model/p/9902810069",
+      "image": "https://www.bigw.com.au/medias/sys_master/images/images/h63/hfe/133488167059486.jpg",
+      "note": "来源标明中国版，搜索结果描述为正反面；实际画面与加载待验证。"
+    }
+  ],
+  "visualReview": {
+    "date": "2026-11-10",
+    "reviewed": [
+      233,
+      230,
+      251,
+      255,
+      70,
+      270,
+      197,
+      256
+    ],
+    "details": "实际下载并查看8张图片；251此前图片疑似其他型号（单前摄），已更换为双前摄整机图；256和197采用完整产品图；其余图片显示整机，版本匹配仍需结合官方核对。",
+    "replacements": [
+      {
+        "id": 251,
+        "source": "https://www.lesnumeriques.com/telephone-portable/huawei-nova-11-ultra-p73342.html",
+        "local": "images/huawei-nova-11-ultra.jpg"
+      },
+      {
+        "id": 256,
+        "source": "https://alaneesqatar.qa/product/huawei-nova-8-price-in-qatar-and-doha/",
+        "local": "images/huawei-nova-8-qatar.jpg"
+      },
+      {
+        "id": 197,
+        "source": "https://www.etoren.com/products/huawei-pocket-2-art-custom-edition-lem-al00-dual-sim-1tb-blue-16gb-ram-china-version",
+        "local": "images/huawei-pocket-2-art.jpg"
+      }
+    ],
+    "failed": [
+      15
+    ],
+    "limitation": "页面在内置浏览器中受文件访问策略限制，未完成页面加载测试；其余机型尚未完成实际视觉检查。"
+  },
+  "visualReviewBatches": [
+    {
+      "date": "2026-11-10",
+      "reviewed": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "failed": [
+        1
+      ],
+      "note": "查看19张主图；更换10号 Pura X Max 多机宣传图为华为商城整机图。22号 Mate X6 经华为官网图片比对，原图为折叠机背面与屏幕组合，保留。其余画面已查看，机型及地区仍需逐一核验。",
+      "replacements": [
+        {
+          "id": 10,
+          "source": "https://www.vmall.com/product/comdetail/index.html?prdId=10086621059876&sbomCode=2601010615007",
+          "image": "images/huawei-pura-x-max.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "reviewed": [
+        3,
+        4,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        42,
+        43,
+        44,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "failed": [
+        1,
+        15,
+        38,
+        41,
+        45,
+        51
+      ],
+      "note": "查看26张主图；27、37、50原图带宣传文案，已换成本地完整机身图；画面检查不等同于型号版本验证。",
+      "replacements": [
+        {
+          "id": 27,
+          "source": "https://detail.zol.com.cn/pk/1857461_1950441.shtml",
+          "image": "images/huawei-mate-60.jpg"
+        },
+        {
+          "id": 37,
+          "source": "https://www.vivo.com.cn/vivo/param/x300s",
+          "image": "images/vivo-x300s.png"
+        },
+        {
+          "id": 50,
+          "source": "https://www.vivo.com.cn/vivo/param/y600pro",
+          "image": "images/vivo-y600-pro.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "reviewed": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        69,
+        72,
+        73,
+        74,
+        77,
+        78,
+        79,
+        80,
+        83,
+        84,
+        85
+      ],
+      "failed": [
+        52,
+        53,
+        67,
+        68,
+        71,
+        75,
+        76,
+        81
+      ],
+      "note": "查看24张主图，替换83和84的宣传图；60 iQOO Z11仍为宣传图，未找到确认无广告且国行版本匹配的图片；型号及地区仍须核实。",
+      "replacements": [
+        {
+          "id": 83,
+          "source": "https://de.kalvo.com/xiaomi-redmi-k100-pro-max-244725.html",
+          "image": "images/redmi-k100-pro-max.jpg"
+        },
+        {
+          "id": 84,
+          "source": "https://gadgets.beebom.com/mobile/redmi-k100-pro",
+          "image": "images/redmi-k100-pro.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "failed": [],
+      "note": "实际查看32张，一加及iQOO机型图片；117广告图替换为vivo官网整机图；115、116共用图片且版本尚待核实；画面检查不等于型号版本确认。",
+      "replacements": [
+        {
+          "id": 117,
+          "source": "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+          "image": "images/iqoo-neo8-pro.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        137,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        153
+      ],
+      "failed": [
+        118,
+        135,
+        136,
+        138,
+        152
+      ],
+      "note": "查看31张主图；131和139原图含宣传信息，已替换。119与120以及128和129的图片画面非常相似，需核对各版本，不能仅凭相似判定错误。画面查看不代表型号和地区均已核实。",
+      "replacements": [
+        {
+          "id": 131,
+          "source": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+          "image": "images/iqoo-neo11.png"
+        },
+        {
+          "id": 139,
+          "source": "https://www.gadgets360.com/vivo-s17t-price-in-india-117893",
+          "image": "images/vivo-s17t.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "failed": [
+        154,
+        161,
+        162,
+        181
+      ],
+      "note": "查看32张主图；替换164、171、185宣传图或局部画面。186和187仍为宣传图，候选型号或画面边缘仍待核实；其他机型及地区需继续核实。",
+      "replacements": [
+        {
+          "id": 164,
+          "source": "https://gadgets.beebom.com/mobile/vivo-y500s",
+          "image": "images/vivo-y500s.png"
+        },
+        {
+          "id": 171,
+          "source": "https://www.gadgets360.com/huawei-mate-xt-2-ultimate-design-price-in-india-137440",
+          "image": "images/huawei-mate-xt2.png"
+        },
+        {
+          "id": 185,
+          "source": "https://gadgets.beebom.com/mobile/huawei-nova-16-se",
+          "image": "images/huawei-nova16-se.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "failed": [],
+      "note": "查看36张；替换193、206、224、225宣传图。213的候选来源标注ABR-AL60，型号可能与P50E不符，未采用，宣传图待更换。190与200外形相似：IT之家报道nova 15 Max为畅享90 Pro Max海外命名，不能仅因相似判错；版本仍需核实。",
+      "replacements": [
+        {
+          "id": 193,
+          "source": "https://consumer.huawei.com/cn/phones/",
+          "image": "images/huawei-nova15-ultra.jpg"
+        },
+        {
+          "id": 206,
+          "source": "https://consumer.huawei.com/co/phones/",
+          "image": "images/huawei-pura70-pro.jpg"
+        },
+        {
+          "id": 224,
+          "source": "https://www.sunsky-online.com/p/MPH2273B.htm",
+          "image": "images/huawei-mate50-pro.jpg"
+        },
+        {
+          "id": 225,
+          "source": "https://allo.ua/ua/products/mobile/smartfon-huawei-mate-xs-2-8-512gb-white.html",
+          "image": "images/huawei-mate-xs2.png"
+        }
+      ],
+      "contextSource": "https://m.ithome.com/html/946639.htm"
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        227,
+        228,
+        229,
+        231,
+        232,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        252,
+        253,
+        254,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267
+      ],
+      "failed": [],
+      "note": "查看36张；265原链接为灰色占位图、266为宣传海报，已替换。263仍是灰色占位图；241、242、246、262仍有海报，候选不符合完整性或未能下载。其余版本仍需核实。",
+      "replacements": [
+        {
+          "id": 265,
+          "source": "https://www.mi.com/global/product-list/xiaomi/",
+          "image": "images/xiaomi-11-ultra.png"
+        },
+        {
+          "id": 266,
+          "source": "https://www.ithome.com/0/548/285.htm",
+          "image": "images/xiaomi-mix-fold.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        268,
+        269,
+        272,
+        274,
+        275,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "failed": [
+        271,
+        273,
+        276
+      ],
+      "note": "查看24张主图；268原为占位图已替换，281仍为灰色占位图；269、275、280、287、290等存在宣传内容；263、281候选为海外版本而现有规格为国行，暂未采用。",
+      "replacements": [
+        {
+          "id": 268,
+          "source": "https://gadgets.beebom.com/mobile/xiaomi-12",
+          "image": "images/xiaomi-12.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        51,
+        53,
+        67,
+        68,
+        75,
+        81,
+        118,
+        136,
+        138
+      ],
+      "failed": [
+        1,
+        15,
+        38,
+        41,
+        45,
+        52,
+        71,
+        76,
+        135,
+        152,
+        154,
+        161,
+        162,
+        181,
+        271,
+        273,
+        276
+      ],
+      "note": "重试26个已有链接，其中9张可下载并查看；67含附加国旗图标，75为局部宣传图。找到67官方规格页图片候选但下载审批审核失败，未替换。82目前无图，查到小米官网对应产品页但未确认独立整机图；不冒用其他版本。",
+      "candidates": [
+        {
+          "id": 67,
+          "source": "https://www.oppo.com/cn/smartphones/series-find-n/find-n5/specs/",
+          "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/find-n5-cn/product/1250-720.png",
+          "status": "尚未下载或视觉确认"
+        },
+        {
+          "id": 82,
+          "source": "https://www.mi.com/prod/redmi-note-17-pro-new",
+          "status": "仍缺经过核验的整机图片"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        1
+      ],
+      "failed": [],
+      "note": "补查vivo X200，替换下载失败的旧外链；67替换带旗帜图标的原图。82已找到官方产品及媒体报道，图片为宣传海报或带水印，暂不采用。",
+      "replacements": [
+        {
+          "id": 1,
+          "source": "https://www.vivo.com.cn/vivo/param/x200",
+          "image": "images/vivo-x200-official.png"
+        },
+        {
+          "id": 67,
+          "source": "https://mobilemasr.com/products/show/%D8%A7%D9%88%D8%A8%D9%88-find-n5-%28%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D9%8A%D9%86%29-%D8%B1%D8%A7%D9%85%D8%A7%D8%AA-16-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-512-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D8%A8%D9%86%D9%81%D8%B3%D8%AC%D9%89-%D8%AC%D8%AF%D9%8A%D8%AF-vn016619",
+          "image": "images/oppo-find-n5-cn.png",
+          "note": "渠道标注中国版，外观参照OPPO国行规格页；颜色对应仍需核实"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        38,
+        41,
+        45,
+        52,
+        135,
+        154
+      ],
+      "failed": [],
+      "note": "来源为vivo官方对应机型参数页，下载并查看不同配色及尺寸示意图，选用完整正反面产品图，替换无法下载的旧图。X80 Pro天玑版仍需单独确认。",
+      "replacements": [
+        {
+          "id": 38,
+          "source": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "image": "images/vivo-x300-pro.png"
+        },
+        {
+          "id": 41,
+          "source": "https://www.vivo.com.cn/vivo/param/s50promini",
+          "image": "images/vivo-s50-pro-mini.png"
+        },
+        {
+          "id": 45,
+          "source": "https://www.vivo.com.cn/vivo/param/s20pro",
+          "image": "images/vivo-s20-pro.png"
+        },
+        {
+          "id": 52,
+          "source": "https://www.vivo.com.cn/vivo/param/y60",
+          "image": "images/vivo-y60.png"
+        },
+        {
+          "id": 135,
+          "source": "https://www.vivo.com.cn/vivo/param/x80pro",
+          "image": "images/vivo-x80-pro.png"
+        },
+        {
+          "id": 154,
+          "source": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "image": "images/vivo-x200-ultra.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        15,
+        71,
+        82,
+        152,
+        161,
+        181,
+        271,
+        273,
+        276
+      ],
+      "failed": [
+        76,
+        162
+      ],
+      "note": "查看并替换9款。82为小米商城对应机型官方缩略图，分辨率320×220；15及181为完整背面图；71为官方多配色组合图。152与骁龙版共用官网至黑图，vivo官网确认天玑版有至黑色，IT之家报道外观几乎一致；不代表参数相同。76候选未确认国行准确版本；162暂无确认元气版独立图。",
+      "replacements": [
+        {
+          "id": 15,
+          "source": "https://consumer.huawei.com/cn/phones/mate70-air/specs/",
+          "image": "images/huawei-mate70-air.png"
+        },
+        {
+          "id": 71,
+          "source": "https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/specs/",
+          "image": "images/oppo-find-n2-flip.png"
+        },
+        {
+          "id": 82,
+          "source": "https://www.mi.com/shop/buy/detail?product_id=25687",
+          "image": "images/redmi-note17-pro-refresh.png"
+        },
+        {
+          "id": 152,
+          "source": "https://www.vivo.com.cn/vivo/param/x80pro",
+          "comparison": "https://www.ithome.com/0/617/892.htm",
+          "image": "images/vivo-x80-pro.png"
+        },
+        {
+          "id": 161,
+          "source": "https://clickbuy.com.vn/vivo-s50t-ra-mat.html",
+          "image": "images/vivo-s50t.jpg"
+        },
+        {
+          "id": 181,
+          "source": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "image": "images/huawei-pura80-pro.png"
+        },
+        {
+          "id": 271,
+          "source": "https://www.ithome.com/0/652/996.htm",
+          "image": "images/xiaomi-12s-pro.jpg"
+        },
+        {
+          "id": 273,
+          "source": "https://www.ithome.com/0/651/046.htm",
+          "image": "images/redmi-k50-ultra.jpg"
+        },
+        {
+          "id": 276,
+          "source": "https://www.ithome.com/0/664/834.htm",
+          "image": "images/redmi-k60-champion.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "reviewed": [
+        76,
+        162
+      ],
+      "failed": [],
+      "note": "分别查看对应型号第三方产品页图，已本地化。76的Pro/Pro Max外形高度相似，商城导航共用缩略图，候选图依据Kalvo单机型条目初步匹配，国行版本及型号细节尚待更权威核验；162依据元气版专属产品页，厂商官方图片来源尚待补充。",
+      "replacements": [
+        {
+          "id": 76,
+          "source": "https://id.kalvo.com/xiaomi-18-pro-251143.html",
+          "official": "https://www.mi.com/shop/buy/detail?product_id=25524",
+          "image": "images/xiaomi-18-pro.jpg"
+        },
+        {
+          "id": 162,
+          "source": "https://www.vivojia.com/product/215.html",
+          "image": "images/vivo-s50t-yuanqi.png"
+        }
+      ]
+    }
+  ],
+  "qualityCorrection": {
+    "date": "2026-11-11",
+    "note": "本次继续补入整机图片；地区差异见各条记录，未完成项目保留在 missing。此前累计查看数不代表全部合格。",
+    "fixed": [
+      {
+        "id": 262,
+        "name": "Xiaomi 10S",
+        "source": "https://mobileworld.com.vn/xiaomi-mi-10s-12gb256gb-moi-fullbox.html",
+        "image": "images/xiaomi-10s.png"
+      },
+      {
+        "id": 60,
+        "name": "iQOO Z11",
+        "source": "https://www.vivo.com.cn/vivo/param/iqooz11",
+        "image": "images/iqoo-z11.png"
+      },
+      {
+        "id": 287,
+        "name": "Redmi K80",
+        "source": "https://www.4gltemall.com/xiaomi-redmi-k80.html",
+        "image": "images/redmi-k80.jpg"
+      },
+      {
+        "id": 263,
+        "name": "Xiaomi 11 青春版",
+        "source": "https://shop.dixintong.com/carproducts-15588-288.html",
+        "image": "images/xiaomi-11-youth.png",
+        "note": "国内零售商页面标注小米11青春版，图片完整；配色与页面文字需进一步确认。"
+      },
+      {
+        "id": 275,
+        "name": "Redmi K60 Pro",
+        "image": "images/redmi-k60-pro-clean.png",
+        "source": "https://gadgets.beebom.com/mobile/redmi-k60-pro",
+        "region": "中国上市版本",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整整机图，无促销文案。"
+      },
+      {
+        "id": 187,
+        "name": "HUAWEI nova 16",
+        "image": "images/huawei-nova-16-clean.png",
+        "source": "https://consumer.huawei.com/cn/phones/nova16/specs/",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整整机图，无促销文案。"
+      },
+      {
+        "id": 213,
+        "name": "HUAWEI P50E",
+        "image": "images/huawei-p50e-clean.jpg",
+        "source": "https://www.suning.com/itemcanshu/0070831323/12386312531.html",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整整机图，无促销文案。"
+      },
+      {
+        "id": 186,
+        "name": "HUAWEI nova 16z",
+        "image": "images/huawei-nova-16z-clean.png",
+        "source": "https://gadgets.beebom.com/mobile/huawei-nova-16z",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整手机图片，无促销文案。"
+      },
+      {
+        "id": 241,
+        "name": "HUAWEI nova Flip",
+        "image": "images/huawei-nova-flip-clean.png",
+        "source": "https://gadgets.beebom.com/mobile/huawei-nova-flip",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整手机图片，无促销文案。"
+      },
+      {
+        "id": 242,
+        "name": "HUAWEI nova Flip S",
+        "image": "images/huawei-nova-flip-s-clean.png",
+        "source": "https://gadgets.beebom.com/mobile/huawei-nova-flip-s",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整手机图片，无促销文案。"
+      },
+      {
+        "id": 246,
+        "name": "HUAWEI nova 12 活力版",
+        "image": "images/huawei-nova-12-youth-clean.jpg",
+        "source": "https://shop.dixintong.com/products-20022-202-0-0.html",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整手机图片，无促销文案。"
+      },
+      {
+        "id": 75,
+        "name": "Xiaomi 18 Pro Max",
+        "image": "images/xiaomi-18-pro-max-clean.png",
+        "source": "https://gadgets.beebom.com/mobile/xiaomi-18-pro-max",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整手机图片，无促销文案。"
+      },
+      {
+        "id": 269,
+        "name": "Xiaomi 12 Pro",
+        "image": "images/xiaomi-12-pro-clean.jpg",
+        "source": "https://imall.com/product/Xiaomi-Mi-12-Pro-CN-Version-5G-Smartphone-6.73-Inch-3200-x-1440-Screen-120Hz-Refresh-Rate-Qualcomm-Snapdragon-8-12GB-RAM-256GB-ROM-50MP-Triple-Rear-Cameras-MIUI-13-4600mAh-Battery-Black/Phones-Accessories/geekbuying.com/489616/181-120817/en",
+        "region": "中国大陆产品图；原参数标注香港版本",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整手机图片，无促销文案。"
+      },
+      {
+        "id": 290,
+        "name": "OPPO Find X",
+        "image": "images/oppo-find-x-clean.png",
+        "source": "https://www.oppo.com/fr/smartphones/",
+        "region": "法国官网产品图",
+        "date": "2026-11-11",
+        "note": "已目视核对为完整手机图片，无促销文案。"
+      },
+      {
+        "id": 280,
+        "name": "Redmi Note 12 Pro",
+        "image": "images/redmi-note-12-pro-clean.jpg",
+        "source": "https://detail.zol.com.cn/1397/1396949/pic.shtml",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对整机图；相机模组分别标注 50MP / 200MP。"
+      },
+      {
+        "id": 281,
+        "name": "Redmi Note 12 Pro+",
+        "image": "images/redmi-note-12-pro-plus-clean.jpg",
+        "source": "https://detail.zol.com.cn/1397/1396950/pic.shtml",
+        "region": "中国大陆",
+        "date": "2026-11-11",
+        "note": "已目视核对整机图；相机模组分别标注 50MP / 200MP。"
+      }
+    ],
+    "knownOutstanding": []
+  },
+  "currentRound": [
+    {
+      "id": 10,
+      "name": "HUAWEI Pura X Max",
+      "image": "images/huawei-pura-x-max-official-white.png",
+      "color": "零度白",
+      "region": "中国大陆",
+      "source": "https://consumer.huawei.com/cn/phones/pura-x-max/specs/",
+      "imageUrl": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/pura-x-max/specs/white.png",
+      "checkedAt": "2026-11-19",
+      "note": "实看原图：完整折叠态背面，无促销文字；应用内浏览器加载与返回待实测"
+    },
+    {
+      "id": 6,
+      "name": "REDMI Note 17 Pro",
+      "image": "images/redmi-note17-pro-cn-blue.png",
+      "color": "晴空蓝",
+      "region": "中国大陆 12GB+256GB",
+      "source": "https://detail.zol.com.cn/cell_phone/index2172331.shtml",
+      "imageUrl": "https://2e.zol-img.com.cn/product/275_320x240/928/celcn46Sje8A.png",
+      "checkedAt": "2026-11-19",
+      "note": "渠道产品页主图；已目视核对完整正反面、无促销文字；320×240，清晰度有限；应用内浏览器加载与返回待实测。"
+    }
+  ]
+}
