@@ -193,6 +193,103 @@
       "source": "https://www.sunsky-online.com/p/MPH9200B.htm",
       "image": "https://img.myipadbox.com/upload/store/product_l/MPH9200B.jpg",
       "note": "搜索结果和来源文字初步对应型号；图片完整性、地区版本和实际加载仍需人工验证"
+    },
+    {
+      "id": 91,
+      "name": "一加 Ace 3 原神刻晴定制机",
+      "source": "https://www.oneplus.com/cn/ace-3-edition/specs",
+      "image": "https://oasisstatics.oneplus.cn/content/dam/oasis/page/2024/global/product/martin/Martin-specs.png",
+      "region": "中国大陆",
+      "variant": "霆霓紫 16GB+512GB",
+      "checkedAt": "2026-11-23",
+      "note": "官网现有主图；图片下载成功并人工查看：正反面机身完整，紫色定制外观，屏幕为原神主题，无额外促销文字或水印；应用内加载未验证。"
+    },
+    {
+      "id": 301,
+      "name": "iPhone 17",
+      "source": "https://www.apple.com.cn/newsroom/2025/09/apple-debuts-iphone-17/",
+      "image": "images/iphone-17-lavender-official.jpg",
+      "imageUrl": "https://www.apple.com.cn/newsroom/images/2025/09/apple-debuts-iphone-17/geo/article/Apple-iPhone-17-hero-250909_inline.jpg.large.jpg",
+      "region": "中国大陆",
+      "color": "薰衣草紫色",
+      "checkedAt": "2026-11-23",
+      "note": "苹果中国大陆发布页面；正背面机身完整，无促销文字及水印；原图已下载并人工检查，应用内加载待验证。"
+    },
+    {
+      "id": 304,
+      "name": "iPhone 17 Pro",
+      "source": "https://www.apple.com.cn/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max-cn/",
+      "image": "images/iphone-17-pro-orange-official.jpg",
+      "imageUrl": "https://www.apple.com.cn/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/article/Apple-iPhone-17-Pro-cosmic-orange-250909_inline.jpg.large.jpg",
+      "region": "中国大陆",
+      "color": "星宇橙色",
+      "checkedAt": "2026-11-23",
+      "note": "苹果中国大陆官方页面标识 iPhone 17 Pro；正背面完整，无额外文字或水印，原图已人工检查。"
+    },
+    {
+      "id": 305,
+      "name": "HONOR Magic8",
+      "source": "https://www.honor.com/cn/phones/honor-magic8/spec/",
+      "image": "images/honor-magic8-black-official.png",
+      "imageUrl": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic8/magic8-id-black-back.png",
+      "region": "中国大陆",
+      "color": "绒黑色",
+      "checkedAt": "2026-11-23",
+      "note": "官网对应型号配色图；背面机身完整，无额外文字水印；本地下载并人工检查。"
+    },
+    {
+      "id": 302,
+      "name": "HONOR Magic8 Pro",
+      "source": "https://www.honor.com/cn/phones/honor-magic8-pro/spec/",
+      "image": "images/honor-magic8-pro-white-official.png",
+      "imageUrl": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic8-pro/magic8-pro-id-white-back.png",
+      "region": "中国大陆",
+      "color": "雪域白",
+      "checkedAt": "2026-11-23",
+      "note": "官网对应型号配色图；背面机身完整，无额外文字水印；本地下载并人工检查。"
+    },
+    {
+      "id": 303,
+      "name": "Samsung Galaxy S25 Ultra",
+      "source": "https://www.samsung.com/tw/smartphones/galaxy-s25-ultra/specs/",
+      "image": "images/samsung-s25-ultra-titanium-black-tw.jpg",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/assets/tw/2501/smartphones/galaxy-s25-ultra/specs/galaxy-s25-ultra_163x346_Titanium-Black.jpg",
+      "region": "中国台湾",
+      "color": "钛黑",
+      "checkedAt": "2026-11-23",
+      "note": "三星台湾官网对应型号和配色；背面机身完整，无额外促销文字或水印；原图尺寸163×346，后续可替换更高清版本。"
+    },
+    {
+      "id": 303,
+      "name": "Samsung Galaxy S25 Ultra",
+      "source": "https://www.samsung.com/tw/smartphones/galaxy-s25-ultra/",
+      "image": "images/samsung-s25-ultra-black-tw-hd.jpg",
+      "imageUrl": "https://images.samsung.com/tw/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-black.jpg",
+      "region": "中国台湾",
+      "color": "钛黑",
+      "checkedAt": "2026-11-23",
+      "note": "三星台湾官网标注钛黑 S25 Ultra，正背面完整，含随机 S Pen，无额外促销文字或水印，替换先前低分辨率图。"
+    },
+    {
+      "id": 211,
+      "name": "HUAWEI P50 Pocket 艺术定制版",
+      "source": "https://consumer.huawei.com/cn/support/p50pocket/",
+      "imageUrl": "https://storage.comprasmartphone.com/smartphones/huawei-p50-pocket.png",
+      "region": "中国大陆",
+      "color": "疑似鎏光金",
+      "checkedAt": "2026-11-23",
+      "status": "待核实",
+      "note": "已下载并目视检查：金色浮雕背面完整，无额外文字水印；官网确认艺术定制版为鎏光金，但当前图片来源文件未明确标注艺术定制版，型号配色关联需继续查证。"
+    },
+    {
+      "id": 115,
+      "name": "iQOO Neo7 竞速版",
+      "source": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+      "imageUrl": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20221020/d695f16655f917cb6150469bff9281eb.png",
+      "region": "中国大陆",
+      "color": "几何黑（官网图像标签）",
+      "checkedAt": "2026-11-23",
+      "note": "官网竞速版规格页对应图；已下载目视检查，正背面机身完整，无额外文字水印；画面偏蓝，标注沿用官网颜色名；图片已经存在于项目。"
     }
   ],
   "missing": [],
@@ -1161,6 +1258,153 @@
       "imageUrl": "https://2e.zol-img.com.cn/product/275_320x240/928/celcn46Sje8A.png",
       "checkedAt": "2026-11-19",
       "note": "渠道产品页主图；已目视核对完整正反面、无促销文字；320×240，清晰度有限；应用内浏览器加载与返回待实测。"
+    }
+  ],
+  "colorImageChecks": [
+    {
+      "id": 115,
+      "name": "iQOO Neo7 竞速版",
+      "color": "印象蓝",
+      "file": "images/iqoo-neo7-racing-blue.png",
+      "source": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+      "imageSource": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20221020/e039a49833d9fde7dcddcdcd34882b48.png",
+      "region": "中国大陆 V2232A",
+      "checkedAt": "2026-11-23",
+      "status": "厂商官方核实",
+      "visualCheck": "完整正背面机身，无促销文字或可见水印，已目视核对"
+    },
+    {
+      "id": 115,
+      "name": "iQOO Neo7 竞速版",
+      "color": "波普橙",
+      "file": "images/iqoo-neo7-racing-orange.png",
+      "source": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+      "imageSource": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20221020/266fc66a807144aa1f161e051b8a6019.png",
+      "region": "中国大陆 V2232A",
+      "checkedAt": "2026-11-23",
+      "status": "厂商官方核实",
+      "visualCheck": "完整正背面机身，无促销文字或可见水印，已目视核对"
+    },
+    {
+      "id": 307,
+      "name": "iPhone 16 Plus",
+      "color": "群青色",
+      "file": "images/iphone-16-plus-ultramarine.jpg",
+      "source": "https://www.telecomarmenia.am/eshop/en/smartphones/apple-iphone-16-plus-ultramarine-512gb/1932/",
+      "imageSource": "https://www.telecomarmenia.am/eshop/images/product/8/17274240907055.jpeg",
+      "region": "图片来源亚美尼亚运营商；国行同名配色由苹果官方确认",
+      "checkedAt": "2026-11-23",
+      "status": "可靠渠道核实",
+      "visualCheck": "正反机身完整、无额外文字水印；地区硬件细节以国行实机为准"
+    },
+    {
+      "id": 306,
+      "name": "iPhone 16",
+      "color": "粉色",
+      "file": "images/iphone-16-pink.jpg",
+      "source": "https://shop.bense.net/Apple-iPhone-16-128GB-Pink/6413427",
+      "imageSource": "https://shop.bense.net/media/6c/95/8e/1741882402/iPhone_16_Pink_PDP_Image_Position_1__DEDE.jpg?ts=1741882402",
+      "region": "图片为德国渠道；国行同配色由 Apple 官方确认",
+      "checkedAt": "2026-11-23",
+      "status": "可靠渠道核实",
+      "visualCheck": "机身正反完整，无额外文字水印；跨地区硬件细节待核"
+    },
+    {
+      "id": 308,
+      "name": "iPhone 16 Pro",
+      "color": "沙漠色钛金属",
+      "file": "images/iphone-16-pro-desert.jpg",
+      "source": "https://mimelon.com/apple-iphone-16-pro-128gb-5g-desert-titanium/",
+      "imageSource": "https://mimelon.com/uploads/catalog/Product/617ZhMUCvIL__AC_SL1500_7.jpg",
+      "region": "图片为阿联酋渠道；国行同配色由 Apple 官方确认",
+      "checkedAt": "2026-11-23",
+      "status": "可靠渠道核实",
+      "visualCheck": "机身正反完整，无额外文字水印；跨地区硬件细节待核"
+    },
+    {
+      "id": 309,
+      "name": "Samsung Galaxy S25",
+      "color": "远海蓝（Navy）",
+      "file": "images/samsung-galaxy-s25-navy.jpg",
+      "source": "https://www.movertix.com/it/samsung-galaxy-s25-5g-in-blu-da-256gb-e-12gb-ram-sm-s931b.html",
+      "imageSource": "https://cdn.movertix.com/media/catalog/product/s/a/samsung-galaxy-s25-5g-navy-256gb-and-12gb-ram-sm-s931b.jpg",
+      "region": "图片来自欧洲 SM-S931B；中国大陆 SM-S9310 存在远海蓝，跨地区外观细节待核",
+      "checkedAt": "2026-11-23",
+      "status": "可靠渠道核实",
+      "visualCheck": "正反机身完整，无额外文字水印"
+    },
+    {
+      "id": 310,
+      "name": "Samsung Galaxy S25 Plus",
+      "color": "清霜绿（Mint）",
+      "file": "images/samsung-galaxy-s25-plus-mint.jpg",
+      "source": "https://www.walmart.com/ip/14959920152",
+      "imageSource": "https://i5.walmartimages.com/seo/Samsung-Galaxy-S25-Plus-256GB-US-Version-Unlocked-Android-Smartphone-with-50MP-Camera-8K-Video-Long-Battery-Mint_8d97f4b8-4e26-4a84-93dd-1d8fcaa1307e.9b1de40d5046eaad0bdf39654df1e31a.jpeg",
+      "region": "图片来自美国版本；国行 SM-S9360 清霜绿由三星中国官网确认，地区硬件细节待核",
+      "checkedAt": "2026-11-23",
+      "status": "可靠渠道核实",
+      "visualCheck": "正反机身完整，无额外文字水印"
+    },
+    {
+      "id": 311,
+      "name": "HONOR Magic7",
+      "color": "雪域白",
+      "file": "images/honor-magic7-white.png",
+      "source": "https://www.honor.com/cn/phones/honor-magic7/spec/",
+      "imageSource": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic7/honor-magic7-id-white-back.png",
+      "region": "中国大陆",
+      "checkedAt": "2026-11-23",
+      "status": "厂商官方核实",
+      "visualCheck": "完整背面机身，无额外文字水印"
+    },
+    {
+      "id": 312,
+      "name": "HONOR Magic7 Pro",
+      "color": "雪域白",
+      "file": "images/honor-magic7-pro-white.png",
+      "source": "https://www.honor.com/cn/phones/honor-magic7-pro/spec/",
+      "imageSource": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic7-pro/honor-magic7-pro-id-white-back.png",
+      "region": "中国大陆",
+      "checkedAt": "2026-11-23",
+      "status": "厂商官方核实",
+      "visualCheck": "完整背面机身，无额外文字水印；荣耀官网标注 Pro"
+    },
+    {
+      "id": 313,
+      "name": "HONOR Magic6",
+      "color": "祁连雪",
+      "file": "images/honor-magic6-qilian-snow.png",
+      "source": "https://www.honor.com/cn/phones/honor-magic6/spec/",
+      "imageSource": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic6/honor-magic6-white-spec.png",
+      "region": "中国大陆",
+      "checkedAt": "2026-11-23",
+      "status": "厂商官方核实",
+      "visualCheck": "完整背面机身，无额外文字水印"
+    },
+    {
+      "id": 314,
+      "name": "iPhone 13",
+      "color": "粉色",
+      "file": "images/iphone-13-pink.jpg",
+      "source": "https://www.cyberpuerta.mx/Apple/iPhone/iPhone/Apple-iPhone-13-128GB-Rosa.html",
+      "imageSource": "https://www.cyberpuerta.mx/img/product/XL/CP-APPLE-MLPH3QLA-09b28d.jpg",
+      "region": "图片来自墨西哥渠道；中国大陆 A2634 有粉色，跨地区外观细节待核",
+      "checkedAt": "2026-11-23",
+      "status": "可靠渠道核实",
+      "visualCheck": "正反机身完整，无额外文字水印"
+    }
+  ],
+  "missingImageSearches": [
+    {
+      "id": 306,
+      "name": "iPhone 16",
+      "region": "中国大陆 A3288",
+      "checkedAt": "2026-11-23",
+      "status": "已补充，跨地区硬件细节待核",
+      "source": "https://support.apple.com/zh-cn/108044",
+      "notes": "Apple机型识别页展示多配色组合图；尚未找到可确认单独机型及配色的完整机身图，继续寻找。",
+      "resolvedAt": "2026-11-23",
+      "resolvedBy": "images/iphone-16-pink.jpg"
     }
   ]
 }

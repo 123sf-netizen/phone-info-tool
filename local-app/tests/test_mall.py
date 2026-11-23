@@ -20,6 +20,7 @@ const phone={id:1,name:'<phone>',status:'在售',salesStatusSource:{region:'中�
 if(mallRows([phone],'PHONE').length!==1||mallRows([{...phone,status:'停售'}]).length||mallRows([{...phone,marketQuotes:[{...quote,url:'javascript:evil'}]}]).length||mallRows([{...phone,marketQuotes:[{...quote,observedAt:'2020-01-01T00:00:00Z'}]}]).length)throw Error('筛选错误');
 const html=mallCards(mallRows([phone]));if(!html.includes('&lt;phone&gt;')||!html.includes('https://example.com/shop')||html.includes('<phone>'))throw Error('输出错误');
 const known={id:5,name:'Xiaomi 17 Ultra',chip:'<chip>',battery:'6800mAh（典型值）；6600mAh（额定值）'};const linked=mallRows([known]);const card=mallCards(linked);if(linked.length!==1||!card.includes('product_id=22422')||!card.includes('处理器：&lt;chip&gt;')||!card.includes('电池：6800mAh（典型值）')||card.includes('6600mAh')||card.includes('价格与库存以渠道为准'))throw Error('商品信息显示错误');
+if(!card.includes('价格待核实')||!card.includes('前往官网')||!card.includes('前往闲鱼')||!card.includes('https://www.goofish.com/search'))throw Error('二手入口或价格提示错误');
 if(mallRows([{...known,status:'停售'}]).length||mallRows([{...known,name:'其他型号'}]).length)throw Error('型号或停售过滤失败');
 '''.replace('HELPERS', helpers).replace('CODE', code)
         result = subprocess.run(['node'], input=script.encode('utf-8'), capture_output=True)
