@@ -1,0 +1,40 @@
+name: Test and deploy
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m unittest discover -s local-app/tests -p 'test_*.py'
+  deploy:
+    needs: test
+    if: github.ref == 'refs/heads/master' && (github.event_name == 'workflow_dispatch' || vars.AUTO_DEPLOY == 'true')
+    runs-on: ubuntu-latest
+    concurrency: phone-info-production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy over SSH
+        env:
+          HOST: ${{ secrets.DEPLOY_HOST }}
+          USER_NAME: ${{ secrets.DEPLOY_USER }}
+          SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          : "${HOST:?}" "${USER_NAME:?}" "${SSH_KEY:?}" "${KNOWN_HOSTS:?}"
+          install -d -m 700 ~/.ssh
+          umask 077
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          target="$USER_NAME@$HOST"
+          ssh_args=(-i ~/.ssh/deploy -o BatchMode=yes -o StrictHostKeyChecking=yes)
+          git archive --format=tar.gz HEAD > "$RUNNER_TEMP/app.tar.gz"
+          remote_dir=$(ssh "${ssh_args[@]}" "$target" 'umask 077; mkdir -p ~/phone-info-tool/releases; mktemp -d ~/phone-info-tool/releases/build.XXXXXXXX')
+          [[ "$remote_dir" =~ ^/[a-zA-Z0-9./_-]+/phone-info-tool/releases/build\.[a-zA-Z0-9]+$ ]]
+          scp "${ssh_args[@]}" "$RUNNER_TEMP/app.tar.gz" "$target:$remote_dir/app.tar.gz"
+          ssh "${ssh_args[@]}" "$target" "tar -xzf '$remote_dir/app.tar.gz' -C '$remote_dir' && bash '$remote_dir/local-app/deploy.sh' '$remote_dir'"

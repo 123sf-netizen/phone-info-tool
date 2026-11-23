@@ -1,0 +1,7 @@
+services:
+  frontend:
+    ports: !override
+      - "127.0.0.1:61434:80"
+      - "127.0.0.1:61435:81"
+volumes:
+  phone_mysql: !override {}
